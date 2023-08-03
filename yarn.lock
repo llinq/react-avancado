@@ -2971,7 +2971,7 @@
     "@testing-library/user-event" "^14.0.0"
     ts-dedent "^2.2.0"
 
-"@storybook/theming@7.2.0":
+"@storybook/theming@7.2.0", "@storybook/theming@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.2.0.tgz#5247229966602aa5d86ce210b08dbe7a9fb34c80"
   integrity sha512-E/nFqZuHnR1HK/jXwlPzLnmbIDxWg4cbSkX3sfTbsDd1h7YhxbouheYSuSPqVDjk+3F87Tv2CP+cZUKDkPd3pQ==
@@ -2981,7 +2981,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.2.0-rc.0", "@storybook/theming@^7.2.0-rc.0":
+"@storybook/theming@7.2.0-rc.0":
   version "7.2.0-rc.0"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.2.0-rc.0.tgz#c99b666ca6d3724e45a0f0a8ec6396a5e8eb29d7"
   integrity sha512-lGO+AXzrz6X8USVf7gUycntkvDsOyJsxj/sxwdd5eWXix+nLyUiHHFl51CFEbilQoLYcfQmYn6tHDgu+4yKzBg==
