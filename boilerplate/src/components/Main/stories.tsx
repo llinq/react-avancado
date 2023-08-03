@@ -4,7 +4,19 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 const meta: Meta<typeof Main> = {
   title: 'Main',
-  component: Main
+  component: Main,
+  args: {
+    title: 'title default',
+    description: 'description default'
+  },
+  argTypes: {
+    title: {
+      control: 'text'
+    },
+    description: {
+      control: 'text'
+    }
+  }
 }
 
 export default meta
@@ -16,13 +28,9 @@ export const Basic: Story = {
     title: 'React Avançado!',
     description: 'Typescript, ReactJS, NextJS e Styled Components'
   },
-  argTypes: {
-    title: {
-      control: 'text'
-    },
-    description: {
-      control: 'text'
-    }
-  },
+  render: (args) => <Main {...args} />
+}
+
+export const Default: Story = {
   render: (args) => <Main {...args} />
 }
