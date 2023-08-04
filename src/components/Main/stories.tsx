@@ -1,6 +1,6 @@
-import Main from '.'
-
 import type { Meta, StoryObj } from '@storybook/react'
+
+import Main from '.'
 
 const meta: Meta<typeof Main> = {
   title: 'Main',
